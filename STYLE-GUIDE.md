@@ -23,7 +23,7 @@ a:hover { color: var(--link-hover); }
 
 ### Background Colors
 
-| Token | Palette color | Use for |
+| Variable | Palette color | Use for |
 | --- | --- | --- |
 | `--bg` | Base | Main page / app background |
 | `--bg-secondary` | Mantle | Secondary panes (sidebars, headers) |
@@ -37,12 +37,14 @@ a:hover { color: var(--link-hover); }
 
 ### Typography & UI
 
-| Token | Palette color | Use for |
+| Variable | Palette color | Use for |
 | --- | --- | --- |
 | `--text` | Text | Body copy and headlines |
 | `--label` | Subtext 1 | Sub-headlines, labels |
 | `--label-muted` | Subtext 0 | De-emphasized labels, captions |
 | `--subtle` | Overlay 1 | Subtle / placeholder text |
+| `--accent` | Blue | Primary action color (buttons, active state) |
+| `--accent-hover` | Sky | Accent hover state |
 | `--on-accent` | Base | Text/icons **on top of** an accent fill (e.g. a colored button) |
 | `--link` | Blue | Links, URLs, tags, pills |
 | `--link-hover` | Sky | Link hover state |

@@ -11,11 +11,18 @@
 	<a href="https://github.com/catppuccin/template/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/template?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
+## Themes
+
+* [theme-frappe.css](https://github.com/Martin-Ludwig/catppuccin-css/blob/main/dist/theme-frappe.css)
+* [theme-mocha.css](https://github.com/Martin-Ludwig/catppuccin-css/blob/main/dist/theme-mocha.css)
+* [theme-latte.css](https://github.com/Martin-Ludwig/catppuccin-css/blob/main/dist/theme-latte.css)
+* [theme-macchiato.css](https://github.com/Martin-Ludwig/catppuccin-css/blob/main/dist/theme-macchiato.css)
+
 ## Usage
 
-Pick a flavor and pull in the stylesheet, then style against the semantic
-tokens (`--bg`, `--text`, `--link`, …). See [`STYLE-GUIDE.md`](STYLE-GUIDE.md)
-for the full token reference.
+Pick a flavor and pull in the stylesheet, then use the
+variables (`--bg`, `--text`, `--link`, …) for your colors. See
+[`STYLE-GUIDE.md`](STYLE-GUIDE.md) for the full variable reference.
 
 ```html
 <link rel="stylesheet" href="theme-mocha.css">
