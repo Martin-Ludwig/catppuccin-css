@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/catppuccin/template">App</a>
+	Catppuccin for Websites.
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -11,46 +11,30 @@
 	<a href="https://github.com/catppuccin/template/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/template?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-<p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/preview.webp"/>
-</p>
-
-## Previews
-
-<details>
-<summary>🌻 Latte</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/latte.webp"/>
-</details>
-<details>
-<summary>🪴 Frappé</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/frappe.webp"/>
-</details>
-<details>
-<summary>🌺 Macchiato</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/macchiato.webp"/>
-</details>
-<details>
-<summary>🌿 Mocha</summary>
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/previews/mocha.webp"/>
-</details>
-
 ## Usage
 
-1. Download the flavor of your choice.
-2. Open the app and go to **Preferences** > **Appearance** > **Import theme**.
-3. Select the downloaded flavor file.
+Pick a flavor and pull in the stylesheet, then style against the semantic
+tokens (`--bg`, `--text`, `--link`, …). See [`STYLE-GUIDE.md`](STYLE-GUIDE.md)
+for the full token reference.
 
-<!-- The FAQ section is optional. Remove if needed.-->
-## 🙋 FAQ
+```html
+<link rel="stylesheet" href="theme-mocha.css">
+```
 
-- Q: **_"How can I do X?"_**\
-  A: ...
+```css
+body      { background: var(--bg); color: var(--text); }
+a         { color: var(--link); }
+a:hover   { color: var(--link-hover); }
+```
 
-## 💝 Thanks to
-
-- [Human](https://github.com/catppuccin)
-
-&nbsp;
+> [!TIP]
+> To make the theme easy to override, import it into a low-priority
+> [cascade layer](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@layer).
+> Unlayered styles always beat layered ones, so your own `:root` rules win:
+>
+> ```css
+> @import "theme-mocha.css" layer(theme);
+> ```
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />

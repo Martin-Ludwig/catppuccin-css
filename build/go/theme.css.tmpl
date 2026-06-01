@@ -1,0 +1,41 @@
+/*
+ * Catppuccin {{ .Name }} theme
+ */
+
+/* -- Raw palette ------------------------------------- */
+:root {
+{{- range $name, $color := .Colors }}
+  --ctp-{{ $name }}: {{ oklch $color.Oklch }};
+{{- end }}
+}
+
+/* -- Semantic web tokens ----------------------------- */
+:root {
+  /* Background Colors */
+  --bg:           var(--ctp-base);
+  --bg-secondary: var(--ctp-mantle);
+  --bg-tertiary:  var(--ctp-crust);
+  --surface-0:    var(--ctp-surface0);
+  --surface-1:    var(--ctp-surface1);
+  --surface-2:    var(--ctp-surface2);
+  --overlay-0:    var(--ctp-overlay0);
+  --overlay-1:    var(--ctp-overlay1);
+  --overlay-2:    var(--ctp-overlay2);
+
+  /* Typography & UI */
+  --text:         var(--ctp-text);
+  --label:        var(--ctp-subtext1);
+  --label-muted:  var(--ctp-subtext0);
+  --subtle:       var(--ctp-overlay1);
+  --on-accent:    var(--ctp-base);
+  --accent:       var(--ctp-blue);
+  --accent-hover: var(--ctp-sky);
+  --link:         var(--ctp-blue);
+  --link-hover:   var(--ctp-sky);
+  --success:      var(--ctp-green);
+  --warning:      var(--ctp-yellow);
+  --error:        var(--ctp-red);
+  --info:         var(--ctp-teal);
+  --cursor:       var(--ctp-rosewater);
+  --selection-bg: color-mix(in srgb, var(--ctp-overlay2) 25%, transparent);
+}
