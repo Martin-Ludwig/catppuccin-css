@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/template/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/template?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/issues"><img src="https://img.shields.io/github/issues/catppuccin/template?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/template?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/Martin-Ludwig/catppuccin-css/stargazers"><img src="https://img.shields.io/github/stars/Martin-Ludwig/catppuccin-css?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/Martin-Ludwig/catppuccin-css/issues"><img src="https://img.shields.io/github/issues/Martin-Ludwig/catppuccin-css?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/Martin-Ludwig/catppuccin-css/contributors"><img src="https://img.shields.io/github/contributors/Martin-Ludwig/catppuccin-css?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 ## Themes
