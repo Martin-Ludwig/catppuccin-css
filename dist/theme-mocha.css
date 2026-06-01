@@ -32,7 +32,7 @@
   --ctp-yellow: oklch(0.9193 0.0704 86.5281);
 }
 
-/* -- Semantic web tokens ----------------------------- */
+/* -- Style guide variables ----------------------------- */
 :root {
   /* Background Colors */
   --bg:           var(--ctp-base);
