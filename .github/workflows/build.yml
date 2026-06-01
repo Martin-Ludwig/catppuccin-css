@@ -19,6 +19,7 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version-file: build/go/go.mod
+          cache: false
 
       - name: Generate themes
         working-directory: build/go
