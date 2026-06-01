@@ -24,9 +24,10 @@ jobs:
         working-directory: build/go
         run: go run .
 
-      - name: Move dist/ to repo-root
+      - name: Move build to dist/
         run: |
-          cp build/go/dist/theme-*.css /
+          mkdir -p dist
+          cp build/go/dist/theme-*.css dist/
 
       - name: Commit regenerated themes
         run: |
